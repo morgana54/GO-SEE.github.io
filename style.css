@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+    height: 100vh;
+    width: 100%;
+}
+
+.hero {
+    background-image: url("media/tlo1.jpg");
+    background-size: cover;
+}
+
+.hero__logo {
+    position: absolute;
+    left: 20%;
+    top: 32%;    
+    height: 24.5%;
+    width: 63.5%;
+}
+
+/* it centers image in its parent - hero__logo*/
+.hero__logo__img {
+    height: 100%;
+    width: auto;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.hero__subtitle {
+    position: absolute;
+    margin: 0;
+    color: #F8E8F7;
+    font-size: 4.5vw;
+    line-height: 119px;
+    font-weight: normal;
+    letter-spacing: -2px;
+}
+
+.about__movie {
+    top: 105%;
+    left: -10%;
+} 
+
+.about__mission {
+    top: -75%;
+    right: -10%;
+}
+
+.about__us {
+    top: 150%;
+    right: 10%;
+}
+
+.zero_num {
+    font-family: Cormorant;
+    font-style: italic;
+    font-size: 4.75vw;
+    font-weight: 500;
+}
+
+.about {
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+/* możesz potem dodać media query dla bardzo szerokich ekranów żeby napisy 01,02,03 miały mniejszą czcionkę mniej więcej proporcjonalnie do loga */
+
+
