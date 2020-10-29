@@ -58,9 +58,7 @@ body {
 }
 
 .zero_num {
-    font-family: Cormorant;
-    font-style: italic;
-    font-size: 4.75vw;
+    font-family: 'Cormorant', serif;
     font-weight: 500;
 }
 
@@ -71,33 +69,88 @@ body {
 
 .hero__footer {
     position: absolute;
+    bottom: -150%;
     font-size: 1.1vw;
     width: 18vw;
     height: auto;
     color: #F8E8F7;
+    font-family: sans-serif;
 }
 .hero__footer--left {
-    bottom: -150%;
     left: -27%;
 }
 
-.instagram {
+.hero__footer--right1 {
+    right: 3%;
+}
+
+.hero__footer--right2 {
+    right: -17%;
+    display: inline;
+    width: 10vw;
+}
+
+.instagram, .contact, #zrzutka_star, #movie{
     float: left;
 }
 
-.facebook {
+.facebook, .for_media, #kuzka {
     float: right;
 }
 
-.star {
+.star, .zrzutka {
     text-align: center;
+}
+
+.hero__button {
+    position: absolute;
+    bottom: 185%;
+    left: -30%;
+    background-color: #F8E8F7;
+    border: none;
+    padding: 2%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2vw;
+    cursor: pointer;
+    outline: none;
+    border-radius: 60%;
+    letter-spacing: -1px;
+    white-space: nowrap;
+}
+
+.hero__description {
+    position: absolute;
+    left: 20%;
+    width: 21vw;
+    color: #F8E8F7;
+    font-family: sans-serif;
+}
+
+
+.hero__description--text {
+    bottom: 175%;
+    height: 15%;
+    text-align: justify;
+    font-size: 0.75vw;
+    font-weight: lighter;
+}
+
+.hero__description--title {
+    bottom: 195%;
+    font-size: 1.1vw;
+}
+
+#document {
+    display: inline;
+    padding-left: 15px;
 }
 
 header > div > div a {
     text-decoration: none;
     color: #F8E8F7;
 }
-
 
 
 /* możesz potem dodać media query dla bardzo szerokich ekranów żeby napisy 01,02,03 miały mniejszą czcionkę mniej więcej proporcjonalnie do loga */
