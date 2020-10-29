@@ -71,24 +71,29 @@ body {
 
 .hero__footer {
     position: absolute;
-    font-size: 1.02vw;
+    font-size: 1.1vw;
+    width: 18vw;
+    height: auto;
+    color: #F8E8F7;
+}
+.hero__footer--left {
     bottom: -150%;
+    left: -27%;
 }
 
 .instagram {
-    left: -25%;
+    float: left;
 }
 
 .facebook {
-    left: -5%;
+    float: right;
 }
 
-.star_1 {
-    left: -10.5%;
-    color: #F8E8F7;
+.star {
+    text-align: center;
 }
 
-header > div > a {
+header > div > div a {
     text-decoration: none;
     color: #F8E8F7;
 }
