@@ -1,0 +1,31 @@
+.third {
+    background: #040904;
+    position: relative;
+}
+
+/* height and width are set proportional to gif1 size ratio */
+.third__main {
+    position: absolute;
+    right: 6.8%;
+    top: 23%;
+    width: 56%;
+}
+
+.third__main--gif1 {
+    width: 100%;
+    height: auto;
+}   
+
+.third__main--gif2 {
+    position: absolute;
+    top: 83%;
+    right: -3%;
+    width: 31%;
+    height: auto;
+} 
+
+@media (min-aspect-ratio: 4/2) {
+    .third__main {
+        width: 48%;
+    }
+}
