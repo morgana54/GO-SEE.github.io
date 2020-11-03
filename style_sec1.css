@@ -23,8 +23,8 @@ body {
 
 /* it centers image in its parent - hero__logo*/
 .hero__logo__img {
-    height: 100%;
-    width: auto;
+    height: auto;
+    width: 100%;
     position: relative;
     top: 50%;
     left: 50%;
