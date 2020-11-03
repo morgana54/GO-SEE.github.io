@@ -1,0 +1,63 @@
+.second {
+    background: #040904;
+}
+
+.second__img {
+    position: absolute;
+    right: 0;
+    width: auto;
+    height: 100vh;
+}
+
+/* .second__box {
+    position: relative;
+    height: 100%;
+    width: 100%;
+} */
+
+/* DO WYSTILIZOWANIA NADAL */
+
+.second__subtitle {
+    position: absolute;
+    left: 16.5%;
+    top: 95%;
+    color: #F8E8F7;
+    font-size: 16.5vh;
+    font-family: sans-serif;
+    font-weight: lighter;
+    letter-spacing: -4px;
+}
+
+.second__subtitle--about {
+    font-family: 'Cormorant', serif;
+    font-weight: 500;
+}
+
+.second__paragraph {
+    position: absolute;
+    top: 130%;
+    left: 6%;
+    width: 34.5%;
+    color: #F8E8F7;
+    font-family: sans-serif;
+    text-align: justify;
+    line-height: 2.3vh;
+    font-size: 0.75vw;
+}
+
+.second__paragraph--bottom {
+    position: absolute;
+    top: 125%;
+}
+
+@media (max-aspect-ratio: 1600/780) {
+    .second__paragraph {
+        width: 29%;
+    }
+}
+
+@media (max-aspect-ratio: 1500/830) {
+    .second__paragraph {
+        width: 24%;
+    }
+}
