@@ -4,36 +4,88 @@
 }
 
 /* height and width are set proportional to gif1 size ratio */
-.third__main {
+/* this is the parent */
+.third__box {
     position: absolute;
     right: 6.8%;
     top: 23%;
-    width: 57.8%;
+    width: 56%;
+    height: 58%;
 }
 
-.third__main--gif1 {
+.third__box--gif1 {
     width: 100%;
-    height: 58%;
 }   
 
-.third__main--gif2 {
+.third__box--position {
     position: absolute;
+}
+
+.third__box--gif2 {
     top: 83%;
     right: -3%;
     width: 31%;
     height: 31%;
 } 
 
-.third__main--gif3 {
-    position: absolute;
-    top: -35%;
+.third__box--gif3 {
+    top: -34%;
     right: 16.5%;
     width: 31%;
     height: 30.5%;
+} 
+
+.third__box--gif4 {
+    top: 68.6%;
+    right: 81.4%;
+    width: 36.8%;
+    height: 36.8%;
+} 
+
+.third__box--gif5 {
+    top: 18%;
+    left: -46.6%;
+    width: 44%;
+    height: 44.6%;
+} 
+
+.third__box--gif6 {
+    top: -37%;
+    left: 9%;
+    width:27%;
+    height: 27%;
 } 
 
 @media (min-aspect-ratio: 4/2) {
     .third__main {
         width: 48%;
     }
+}
+
+@media (min-aspect-ratio: 1090/460) {
+    .third__main {
+        width: 40%;
+    }
+}
+
+.third__box--trailer {
+    color: #F8E8F7;
+    font-family: sans-serif;
+    font-size: 3.5vw;
+    width: auto;
+    height: auto;
+    line-height: 80%;
+    top: -20.2%;
+    left: -47.5%;
+}
+
+.third__box--soon {
+    color: #F8E8F7;
+    font-family: 'Cormorant', serif;
+    font-weight: 500;
+    font-size: 3.5vw;
+    width: 100%;
+    height: 100%;
+    top: 84%;
+    left: 48%;
 }
