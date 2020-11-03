@@ -8,12 +8,12 @@
     position: absolute;
     right: 6.8%;
     top: 23%;
-    width: 56%;
+    width: 57.8%;
 }
 
 .third__main--gif1 {
     width: 100%;
-    height: auto;
+    height: 58%;
 }   
 
 .third__main--gif2 {
@@ -21,7 +21,15 @@
     top: 83%;
     right: -3%;
     width: 31%;
-    height: auto;
+    height: 31%;
+} 
+
+.third__main--gif3 {
+    position: absolute;
+    top: -35%;
+    right: 16.5%;
+    width: 31%;
+    height: 30.5%;
 } 
 
 @media (min-aspect-ratio: 4/2) {
