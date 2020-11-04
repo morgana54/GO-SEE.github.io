@@ -1,0 +1,55 @@
+.fifth {
+    position: relative;
+    background-color: #040904;
+}
+
+.fifth__paragraph {
+    position: absolute;
+    top: 32%;
+    left: 16.5%;
+    width: 47%;
+    color: #F8E8F7;
+    font-family: sans-serif;
+    text-align: justify;
+    line-height: 2.2vh;
+    font-size: 0.85vw;
+}
+
+.fifth__paragraph--strike {
+    position: absolute;
+    top: -17%;
+    font-size: 6vw;
+    left: 32%;
+    font-family: sans-serif;
+    white-space: nowrap;
+}
+
+.fifth__paragraph--bottom {
+    padding-top: 3.5%;
+}
+
+.fifth__paragraph--signature {
+    padding-top: 1%;
+    float: right;
+}
+
+.cormorant-font-italic {
+    font-family: 'Cormorant', serif;
+    font-style: italic;
+}
+
+#pose {
+    font-size: 7vw;
+}
+
+#swan {
+    font-size: 0.9vw;
+}
+
+.fifth__img {
+    position: absolute;
+    left: 112%;
+    top: 25%;
+    width: 28%;
+    height: auto;
+}
