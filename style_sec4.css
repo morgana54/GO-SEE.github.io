@@ -18,3 +18,33 @@
 .section__banner--bottom {
     bottom: 10px;
 }
+
+.fourth__paragraph {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #F8E8F7;
+    font-family: sans-serif;
+    text-align: justify;
+    line-height: 2vh;
+    font-size: 0.85vw;
+    padding-left: 27%;
+    padding-right: 27%;
+}
+
+.fourth__paragraph--bottom {
+    padding-top: 3%;
+}
+
+.fourth__paragraph--mission {
+    position: absolute;
+    top: -17%;
+    font-size: 6vw;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-family: 'Cormorant', serif;
+    font-style: italic;
+}
