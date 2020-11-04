@@ -33,12 +33,12 @@
     float: right;
 }
 
-.Cormorant {
+.cormorant-font-italic {
     font-family: 'Cormorant', serif;
     font-style: italic;
 }
 
-#POSE {
+#pose {
     font-size: 7vw;
 }
 
