@@ -9,19 +9,9 @@
     height: 100vh;
 }
 
-/* .second__box {
-    position: relative;
-    height: 100%;
-    width: 100%;
-} */
-
-/* TO DO*/
-/* czcionkę dać w spanie dobra GO&SEE */
-/* ogarnąć może opacity jakieś czarne tło */
-
 .second__subtitle {
     position: absolute;
-    left: 16.5%;
+    left: 13.5%;
     top: 95%;
     color: #F8E8F7;
     font-size: 16.5vh;
@@ -40,12 +30,17 @@
     position: absolute;
     top: 130%;
     left: 6%;
-    width: 34.5%;
+    width: 32.5%;
     color: #F8E8F7;
     font-family: sans-serif;
     text-align: justify;
     line-height: 2.3vh;
-    font-size: 0.75vw;
+    font-size: 0.85vw;
+}
+
+.second__blur {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
 }
 
 .second__paragraph--bottom {
@@ -53,7 +48,9 @@
     top: 125%;
 }
 
-@media (max-aspect-ratio: 1600/780) {
+
+/* replaced with transparent black background */
+/* @media (max-aspect-ratio: 1600/780) {
     .second__paragraph {
         width: 29%;
     }
@@ -63,4 +60,15 @@
     .second__paragraph {
         width: 22%;
     }
+} */
+
+#second__GO {
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+#second__SEE {
+    font-family: 'Cormorant', serif;
+    font-weight: 500;
+    font-style: italic;
 }
