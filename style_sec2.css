@@ -15,7 +15,9 @@
     width: 100%;
 } */
 
-/* DO WYSTILIZOWANIA NADAL */
+/* TO DO*/
+/* czcionkę dać w spanie dobra GO&SEE */
+/* ogarnąć może opacity jakieś czarne tło */
 
 .second__subtitle {
     position: absolute;
@@ -31,6 +33,7 @@
 .second__subtitle--about {
     font-family: 'Cormorant', serif;
     font-weight: 500;
+    font-style: italic;
 }
 
 .second__paragraph {
