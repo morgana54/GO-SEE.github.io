@@ -1,0 +1,90 @@
+.seventh {
+    background-color: #040904;;
+}
+
+.seventh__box {
+    position: relative;
+    height: 100vh;
+}
+
+.seventh__box--grid {
+    position: absolute;
+    top: 10vh;
+    left: 8vw;
+    width: 85vw;
+    display: grid;
+    grid-template-columns: repeat(4, 19%);
+    grid-template-rows: repeat(2, 46%);
+
+    /* na mobilkę: możesz dać media query gdzie właśnie grid-template będzie się zamieniał to auto-fill itp., żeby był wrapowanie, albo po prostu dajesz repeat na mniej kolumn i inny procent długości/wysokości */
+
+}
+
+/* worth ogólnie:
+https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/
+https://css-tricks.com/aspect-ratios-grid-items/ */
+
+.seventh__img {
+    width: 103%;
+}
+
+.seventh__img--1 {
+    transform: rotate(-1.06deg);
+}
+
+.seventh__img--2 {
+    transform: rotate(4.57deg);
+}
+
+.seventh__img--3 {
+    transform: rotate(-0.75deg);
+}
+
+.seventh__img--4 {
+    transform: rotate(1.99deg);
+}
+
+.seventh__img--5 {
+    margin-left: 1.5vw;
+}
+
+.seventh__img--6 {
+    transform: rotate(-7.41deg);
+}
+
+.seventh__img--7 {
+    transform: rotate(0.71deg);
+}
+
+.seventh__img--8 {
+    transform: rotate(-2.61deg) translateX(-1.2vw);
+}
+
+.seventh__box--about-us {
+    color: #F8E8F7;
+    position: absolute;
+    right: 11vw;
+    font-size: 7vw;
+    font-weight: lighter;
+}
+
+.sans-serif {
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+.seventh__about {
+    font-size: 7.5vw;
+}
+
+.seventh__box--paragraph {
+    position: absolute;
+    top: 10vw;
+    right: 7vw;
+    width: 14%;
+    color: #F8E8F7;
+    font-family: sans-serif;
+    text-align: justify;
+    line-height: 2.2vh;
+    font-size: 0.86vw;
+}
