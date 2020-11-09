@@ -15,15 +15,8 @@
     top: 95%;
     color: #F8E8F7;
     font-size: 16.5vh;
-    font-family: sans-serif;
     font-weight: lighter;
     letter-spacing: -4px;
-}
-
-.second__subtitle--about {
-    font-family: 'Cormorant', serif;
-    font-weight: 500;
-    font-style: italic;
 }
 
 .second__paragraph {
@@ -32,7 +25,6 @@
     left: 6%;
     width: 32.5%;
     color: #F8E8F7;
-    font-family: sans-serif;
     text-align: justify;
     line-height: 2.3vh;
     font-size: 0.85vw;
@@ -61,14 +53,3 @@
         width: 22%;
     }
 } */
-
-.go {
-    font-family: sans-serif;
-    font-weight: 500;
-}
-
-.see {
-    font-family: 'Cormorant', serif;
-    font-weight: 500;
-    font-style: italic;
-}

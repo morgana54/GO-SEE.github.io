@@ -1,0 +1,83 @@
+.eighth {
+    background-color: #040904;
+}
+
+.eighth__header {
+    position: relative;
+    left: 15%;
+    top: 15%;
+    height: auto;
+    width: 60%;
+    font-size: 12vw;
+    color: #F8E8F7;
+}
+
+.eighth__for-media {
+    position: absolute;
+    bottom: -30%;
+    right: -18%;
+    font-size: 6vw;
+}
+
+.eighth__media {
+    font-size: 5.5vw;
+}
+
+.eighth__email {
+    position: absolute;
+    top: 160%;
+    left: 38%;
+    font-size: 2vw;
+}
+
+.eighth__instagram {
+    position: absolute;
+    top: 150%;
+    width: 100%;
+    text-align: center;
+    font-size: 1.25vw;
+}
+
+div > div > div > a {
+    text-decoration: none;
+    color: #F8E8F7;
+}
+
+div > div > div > a:hover {
+    color: #bbb8b8;
+    text-decoration: underline;
+}
+
+.eighth__footer {
+    position: relative;
+    top: 90%;
+    width: 100%;
+    height: 5%;
+    color: #F8E8F7;
+    font-size: 0.6vw;
+}
+
+.eighth__logo__img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    height: auto;
+    width: 7%;
+}
+
+.eighth__footer--sides {
+    -ms-transform: translate(0, 250%);
+    transform: translate(0, 250%);
+}
+
+.eighth__design {
+    float: left;
+    padding-left: 2%;
+}
+
+.eighth__programming {
+    float: right;
+    padding-right: 2%;
+}
