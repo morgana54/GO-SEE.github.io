@@ -3,6 +3,7 @@
 @import "style_sec4.css";
 @import "style_sec5.css";
 @import "style_sec7.css";
+@import "style_sec8.css";
 
 body {
     margin: 0;
@@ -68,11 +69,6 @@ body {
     font-weight: 500;
 }
 
-.about {
-    font-family: sans-serif;
-    font-style: normal;
-}
-
 .hero__footer {
     position: absolute;
     bottom: -150%;
@@ -80,7 +76,6 @@ body {
     width: 18vw;
     height: auto;
     color: #F8E8F7;
-    font-family: sans-serif;
 }
 .hero__footer--left {
     left: -27%;
@@ -131,7 +126,6 @@ body {
     left: 17%;
     width: 21vw;
     color: #F8E8F7;
-    font-family: sans-serif;
 }
 
 

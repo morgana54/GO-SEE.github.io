@@ -1,5 +1,5 @@
 .seventh {
-    background-color: #040904;;
+    background-color: #040904;
 }
 
 .seventh__box {
@@ -68,9 +68,8 @@ https://css-tricks.com/aspect-ratios-grid-items/ */
     font-weight: lighter;
 }
 
-.sans-serif {
-    font-family: sans-serif;
-    font-style: normal;
+.helvetica {
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 .seventh__about {
@@ -83,7 +82,6 @@ https://css-tricks.com/aspect-ratios-grid-items/ */
     right: 7vw;
     width: 14%;
     color: #F8E8F7;
-    font-family: sans-serif;
     text-align: justify;
     line-height: 2.2vh;
     font-size: 0.86vw;

@@ -26,7 +26,6 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     color: #F8E8F7;
-    font-family: sans-serif;
     text-align: justify;
     line-height: 2vh;
     font-size: 0.85vw;
@@ -45,6 +44,8 @@
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    font-family: 'Cormorant', serif;
-    font-style: italic;
+}
+
+.see {
+    font-size: 0.9vw;
 }
