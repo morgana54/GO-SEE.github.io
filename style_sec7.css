@@ -14,7 +14,7 @@
     width: 85vw;
     display: grid;
     grid-template-columns: repeat(4, 19%);
-    grid-template-rows: repeat(2, 46%);
+    grid-template-rows: repeat(2, 44%);
 
     /* na mobilkę: możesz dać media query gdzie właśnie grid-template będzie się zamieniał to auto-fill itp., żeby był wrapowanie, albo po prostu dajesz repeat na mniej kolumn i inny procent długości/wysokości */
 
@@ -28,20 +28,8 @@ https://css-tricks.com/aspect-ratios-grid-items/ */
     width: 103%;
 }
 
-.seventh__img--1 {
-    transform: rotate(-1.06deg);
-}
-
 .seventh__img--2 {
-    transform: rotate(4.57deg);
-}
-
-.seventh__img--3 {
-    transform: rotate(-0.75deg);
-}
-
-.seventh__img--4 {
-    transform: rotate(1.99deg);
+    width: 110%;
 }
 
 .seventh__img--5 {
@@ -49,15 +37,11 @@ https://css-tricks.com/aspect-ratios-grid-items/ */
 }
 
 .seventh__img--6 {
-    transform: rotate(-7.41deg);
-}
-
-.seventh__img--7 {
-    transform: rotate(0.71deg);
+    width: 110%;
 }
 
 .seventh__img--8 {
-    transform: rotate(-2.61deg) translateX(-1.2vw);
+    transform: translateX(-1.2vw);
 }
 
 .seventh__box--about-us {
