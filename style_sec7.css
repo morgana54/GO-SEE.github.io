@@ -32,6 +32,10 @@ https://css-tricks.com/aspect-ratios-grid-items/ */
     width: 110%;
 }
 
+.seventh__img--4 {
+    transform: translate(-1.3vw);
+}
+
 .seventh__img--5 {
     margin-left: 1.5vw;
 }
@@ -41,7 +45,7 @@ https://css-tricks.com/aspect-ratios-grid-items/ */
 }
 
 .seventh__img--8 {
-    transform: translateX(-1.2vw);
+    transform: translateX(-1.7vw);
 }
 
 .seventh__box--about-us {

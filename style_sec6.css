@@ -1,0 +1,16 @@
+.sixth {
+    background-color:  #040904;
+}
+
+.sixth__grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 25vh);
+}
+
+.sixth__gridItem {
+    height: 100%;
+    width: 100%;
+}
+
+/* responsywność do zrobienia z dziobakiem, bo rozmiary są tough do zrobienia!!! */
