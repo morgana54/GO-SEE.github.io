@@ -2,8 +2,13 @@
 @import "style_sec3.css";
 @import "style_sec4.css";
 @import "style_sec5.css";
+@import "style_sec6.css";
 @import "style_sec7.css";
 @import "style_sec8.css";
+
+html {
+    scroll-behavior: smooth;
+  }
 
 body {
     margin: 0;
@@ -49,6 +54,10 @@ body {
     letter-spacing: -2px;
 }
 
+.contact:hover, .for_media:hover, .zrzutka:hover, .hero__subtitle:hover {
+    color: #b6b6b6;
+}
+
 .about__movie {
     top: 105%;
     left: -10%;
@@ -82,11 +91,11 @@ body {
 }
 
 .hero__footer--right1 {
-    right: 3%;
+    right: -1%;
 }
 
 .hero__footer--right2 {
-    right: -17%;
+    right: -21%;
     display: inline;
     width: 10vw;
 }
@@ -109,10 +118,10 @@ body {
     left: -30%;
     background-color: #F8E8F7;
     border: none;
-    padding: 2%;
-    text-align: center;
+    padding: 1vw;
+    text-align: center; 
     text-decoration: none;
-    display: inline-block;
+    /* display: inline-block; */
     font-size: 1.2vw;
     cursor: pointer;
     outline: none;
@@ -147,7 +156,7 @@ body {
     padding-left: 15px;
 }
 
-header > div > div a {
+header > div > div a, header > div > a {
     text-decoration: none;
     color: #F8E8F7;
 }
