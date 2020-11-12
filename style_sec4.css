@@ -1,11 +1,21 @@
 .fourth {
     position: relative;
     background-color: #040904;
+    height: 100vh;
+    width: 100%;
 }
 
 .section__banner {
     position: absolute;
     background-image: url(media/banner.gif);
+    background-size: cover;
+    height: 15vh;
+    width: 100%;
+}
+
+.section__banner--eng {
+    position: absolute;
+    background-image: url(media/banner_eng.gif);
     background-size: cover;
     height: 15vh;
     width: 100%;
@@ -27,8 +37,8 @@
     transform: translate(-50%, -50%);
     color: #F8E8F7;
     text-align: justify;
-    line-height: 2vh;
-    font-size: 0.85vw;
+    line-height: 2.3vh;
+    font-size: 0.9vw;
     padding-left: 27%;
     padding-right: 27%;
 }
@@ -37,9 +47,9 @@
     padding-top: 3%;
 }
 
-.fourth__paragraph--mission {
+.fourth__paragraph__mission, .fourth__paragraph__mission--eng {
     position: absolute;
-    top: -17%;
+    top: -15%;
     font-size: 6vw;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
@@ -47,5 +57,78 @@
 }
 
 .see {
-    font-size: 0.9vw;
+    font-size: 0.94vw;
 }
+
+/* for tablets */
+@media (max-aspect-ratio: 800/600) {
+    .section__banner--eng, .section__banner {
+        height: 9vh;
+    }
+
+    .fourth__paragraph {
+        font-size: 2.5vw;
+        padding-left: 5%;
+        padding-right: 5%;
+        line-height: 2.8vh;
+        top: 57%;
+    }
+
+    .see {
+        font-size: 2.5vw;
+    }
+
+    .fourth__paragraph__mission {
+        top: -17%;
+        font-size: 25vw;
+        left: 60%;
+        text-align: right;
+    }
+
+    .fourth__paragraph__mission--eng {
+        top: -13%;
+        font-size: 20vw;
+        left: 53%;
+        text-align: right;
+    }
+    
+}
+
+/* for smartphones */
+@media (max-aspect-ratio: 320/560) {
+    .section__banner--eng, .section__banner {
+        height: 8vh;
+    }
+
+    .fourth__paragraph {
+        font-size: 3.8vw;
+        padding-left: 5%;
+        padding-right: 5%;
+        line-height: 2.2vh;
+        top: 55%;
+    }
+
+    .see {
+        font-size: 3.8vw;
+    }
+
+    
+    .fourth__paragraph__mission {
+        top: -10%;
+        font-size: 23vw;
+        left: 63%;
+    }
+
+    .fourth__paragraph__mission--eng {
+        top: -7%;
+    }
+}
+
+@media (max-height: 660px) {
+    .fourth__paragraph {
+        line-height: 2.4vh;
+    }
+}
+
+/* jeszcze zrobić na ANGIELSKĄ mobilkę responsywność */
+/* PROPOZYCJA ---> zmienić napis na samo: "MISSION" */
