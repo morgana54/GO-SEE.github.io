@@ -7,7 +7,7 @@
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(4, 25vh);
     max-width: 1060px;
-    margin: 0 auto; /*spytać dziobaka jeszcze raz o wytłumaczenie tego!*/
+    margin: 0 auto;
 }
 
 .sixth__gridItem {
