@@ -109,6 +109,7 @@
     }
 }
 
+/* for smartphones */
 @media (max-aspect-ratio: 320/560) {
     .fifth__paragraph {
         font-size: 3vw;

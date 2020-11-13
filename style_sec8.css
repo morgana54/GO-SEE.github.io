@@ -1,5 +1,7 @@
 .eighth {
     background-color: #040904;
+    height: 100vh;
+    width: 100%;
 }
 
 .eighth__header {
@@ -80,4 +82,68 @@ div > div > div > a:hover {
 .eighth__programming {
     float: right;
     padding-right: 2%;
+}
+
+
+
+/* for tablets */
+@media (max-aspect-ratio: 1/1) {
+    .eighth {
+        height: 75vh;
+    }
+
+    .eighth__logo__img {
+        width: 25%;
+    }
+
+    .eighth__footer {
+        font-size: 1.5vw;
+    }
+
+    .eighth__header {
+        left: 5%;
+        top: 30%;
+        width: 60%;
+        font-size: 18vw;
+    }
+    
+    .eighth__forMedia {
+        bottom: -45%;
+        left: 8vw;
+        font-size: 13vw;
+        white-space: nowrap;
+    }
+
+    .eighth__media {
+        font-size: 11.5vw;
+    }
+
+    .eighth__email {
+        top: 170%;
+        left: 38%;
+        font-size: 4vw;
+    }
+    
+    .eighth__instagram {
+        position: absolute;
+        top: 150%;
+        width: 100%;
+        text-align: center;
+        font-size: 3.25vw;
+    }
+
+}
+
+/* for smartphones */
+@media (max-aspect-ratio: 320/560) {
+    .eighth {
+        height: 60vh;
+    }
+}
+
+/* for iPhone X */
+@media (max-aspect-ratio: 410/812) {
+    .eighth {
+        height: 50vh;
+    }
 }

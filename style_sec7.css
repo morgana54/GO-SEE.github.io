@@ -1,5 +1,7 @@
 .seventh {
     background-color: #040904;
+    width: 100%;
+    height: 100vh;
 }
 
 .seventh__box {
@@ -15,14 +17,7 @@
     display: grid;
     grid-template-columns: repeat(4, 19%);
     grid-template-rows: repeat(2, 44%);
-
-    /* na mobilkę: możesz dać media query gdzie właśnie grid-template będzie się zamieniał to auto-fill itp., żeby był wrapowanie, albo po prostu dajesz repeat na mniej kolumn i inny procent długości/wysokości */
-
 }
-
-/* worth ogólnie:
-https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/
-https://css-tricks.com/aspect-ratios-grid-items/ */
 
 .seventh__img {
     width: 103%;
@@ -74,3 +69,99 @@ https://css-tricks.com/aspect-ratios-grid-items/ */
     line-height: 2.2vh;
     font-size: 0.86vw;
 }
+
+
+/* for tablets */
+@media (max-aspect-ratio: 1/1) {
+    .seventh__box--grid {
+        grid-template-columns: repeat(auto-fill, 30%);
+        grid-template-rows: repeat(3, 26%);
+        top: 34vh;
+        grid-gap: 4.5vw;
+        width: 90vw;
+        left: 2vw;
+    }
+
+    .seventh__img {
+        width: 120%;
+    }
+
+    .seventh__img--2 {
+        transform: rotate(-4deg);
+    }
+
+    .seventh__img--4 {
+        transform: rotate(-1deg)
+    }
+
+    .seventh__img--5 {
+        width: 115%;
+        transform: translate(0, 5%);
+    }
+
+    .seventh__img--6 {
+        width: 135%;
+        transform: rotate(12deg) translate(-8%, 0);
+    }
+
+    .seventh__img--7 {
+        transform: translate(25%, -4%);
+    }
+
+    .seventh__img--8 {
+        transform: translate(28%, 6%) rotate(-8deg);
+        width: 125%;
+    }
+
+    .seventh__box--about-us {
+        font-size: 22vw;
+    }
+
+    .seventh__about {
+        font-size: 25vw;
+    }
+
+    .seventh__box--paragraph {
+        top: 27vw;
+        right: 14vw;
+        width: 75%;
+        line-height: 2vh;
+        font-size: 3vw;
+    }
+    
+
+}
+
+/* for Kindle */
+@media (max-aspect-ratio: 800/1280) {
+    .seventh {
+        height: 85vh;
+    }
+}
+
+/* for smartphones */
+@media (max-aspect-ratio: 320/560) {
+    .seventh {
+        height: 80vh;
+    }
+
+    .seventh__box--grid {
+        top: 28vh;
+    }
+}
+
+/* for iPhone X */
+@media (max-aspect-ratio: 375/812) {
+    .seventh {
+        height: 70vh;
+    }
+}
+
+/* for Galaxy Fold */
+@media (max-aspect-ratio: 280/650) {
+    .seventh {
+        height: 70vh;
+    }
+}
+
+    /* na mobilkę: możesz dać media query gdzie właśnie grid-template będzie się zamieniał to auto-fill itp., żeby był wrapowanie, albo po prostu dajesz repeat na mniej kolumn i inny procent długości/wysokości */
