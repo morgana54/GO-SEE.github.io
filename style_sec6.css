@@ -5,9 +5,9 @@
 .sixth__grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(4, 25vh);
+    grid-template-rows: repeat(4, auto);
     max-width: 1060px;
-    margin: 0 auto; /*spytać dziobaka jeszcze raz o wytłumaczenie tego!*/
+    margin: 0 auto;
 }
 
 .sixth__gridItem {
@@ -15,5 +15,3 @@
     width: 100%;
     object-fit: contain;
 }
-
-/* responsywność do zrobienia z dziobakiem, bo rozmiary są tough do zrobienia!!! */
