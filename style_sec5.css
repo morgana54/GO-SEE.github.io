@@ -22,6 +22,10 @@
     white-space: nowrap;
 }
 
+.fifth__paragraph--strikeMobile {
+    display: none;
+}
+
 .fifth__paragraph--bottom {
     padding-top: 3.5%;
 }
@@ -51,3 +55,76 @@
     width: 28%;
     height: auto;
 }
+
+
+/* for tablets */
+@media (max-aspect-ratio: 1/1) {
+    .fifth__img {
+        display: none;
+    }
+
+    .fifth__paragraph {
+        top: 59%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        font-size: 2.8vw;
+        width: 100%;
+    }
+
+    .fifth__paragraph--bottom {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .fifth__paragraph--signature {
+        padding-right: 5%;
+        font-size: 3.3vw;
+    }
+
+    #swan {
+        font-size: 3.45vw;
+    }
+
+    .fifth__paragraph--strike {
+        display: none;
+    }
+
+    .fifth__paragraph--strikeMobile {
+        display: block;
+        position: absolute;
+        top: -21%;
+        font-size: 18.5vw;
+        left: 5%;
+    }
+
+    #aPose {
+        padding-left: 40%;
+        padding-top: 15%;
+        white-space: nowrap;
+    }
+
+    #pose {
+        font-size: 19.5vw;
+    }
+}
+
+@media (max-aspect-ratio: 320/560) {
+    .fifth__paragraph {
+        font-size: 3vw;
+    }
+}
+
+@media (max-height: 660px) {
+    .fourth__paragraph {
+        line-height: 2.4vh;
+    }
+}
+
+
+/* dopasować jeszcze ewentualnie line-heighty dla danych  wysokości pixelowych!!
+- galaxy fold
+- iphony 
+- tablety (ENG) */
+
+/* dopasować line-height jeszcze w kształtach bliskich kwadratu */
