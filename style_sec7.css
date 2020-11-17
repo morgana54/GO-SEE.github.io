@@ -1,7 +1,9 @@
 .seventh {
     background-color: #040904;
-    width: 100%;
     height: 100vh;
+    width: 100vw;
+    max-width: 100vw;
+    overflow: hidden;
 }
 
 .seventh__box {
