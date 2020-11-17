@@ -1,8 +1,8 @@
 .sixth {
     background-color:  #040904;
-    height: 100vh;
-    width: 100vw;
-    max-width: 100vw;
+    height: auto;
+    width: 100%;;
+    max-width: 100%;;
     overflow: hidden;
 }
 

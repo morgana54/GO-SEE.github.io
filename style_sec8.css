@@ -1,8 +1,8 @@
 .eighth {
     background-color: #040904;
     height: 100vh;
-    width: 100vw;
-    max-width: 100vw;
+    width: 100%;;
+    max-width: 100%;;
     overflow: hidden;
 }
 
@@ -58,7 +58,7 @@ div > div > div > a:hover {
     width: 100%;
     height: 5%;
     color: #F8E8F7;
-    font-size: 0.6vw;
+    font-size: 0.7vw;
 }
 
 .eighth__logo__img {
@@ -71,9 +71,15 @@ div > div > div > a:hover {
     width: 7%;
 }
 
-.eighth__footer--sides {
+.eighth__footer--sidesLeft {
     -ms-transform: translate(0, 250%);
     transform: translate(0, 250%);
+}
+
+
+.eighth__footer--sidesRight {
+    -ms-transform: translate(0, 80%);
+    transform: translate(0, 80%);
 }
 
 .eighth__design {
@@ -83,7 +89,15 @@ div > div > div > a:hover {
 
 .eighth__programming {
     float: right;
-    padding-right: 2%;
+    padding-right: 7%;
+}
+
+.eight__programming--names {
+    position: relative;
+    top: -2.5vh;
+    right: -6vw;
+    width: 8vw;
+    white-space: normal;
 }
 
 
@@ -91,7 +105,7 @@ div > div > div > a:hover {
 /* for tablets */
 @media (max-aspect-ratio: 1/1) {
     .eighth {
-        height: 75vh;
+        height: 60vh;
     }
 
     .eighth__logo__img {
@@ -104,7 +118,7 @@ div > div > div > a:hover {
 
     .eighth__header {
         left: 5%;
-        top: 30%;
+        top: 10%;
         width: 60%;
         font-size: 18vw;
     }
@@ -139,7 +153,7 @@ div > div > div > a:hover {
 /* for smartphones */
 @media (max-aspect-ratio: 320/560) {
     .eighth {
-        height: 60vh;
+        height: 50vh;
     }
 }
 

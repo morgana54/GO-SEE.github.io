@@ -1,8 +1,8 @@
 .seventh {
     background-color: #040904;
     height: 100vh;
-    width: 100vw;
-    max-width: 100vw;
+    width: 100%;;
+    max-width: 100%;;
     overflow: hidden;
 }
 
@@ -46,6 +46,14 @@
 }
 
 .seventh__box--about-us {
+    color: #F8E8F7;
+    position: absolute;
+    right: 11vw;
+    font-size: 7vw;
+    font-weight: lighter;
+}
+
+.seventh__box--about-usENG {
     color: #F8E8F7;
     position: absolute;
     right: 11vw;
@@ -119,8 +127,18 @@
         font-size: 22vw;
     }
 
-    .seventh__about {
+    .seventh__about{
         font-size: 25vw;
+    }
+
+    .seventh__box--about-usENG {
+        font-size: 14vw;
+        right: 13vw;
+        top: 4vh;
+    }
+
+    .seventh__aboutENG {
+        font-size: 15vw;
     }
 
     .seventh__box--paragraph {
@@ -130,21 +148,26 @@
         line-height: 2vh;
         font-size: 3vw;
     }
-    
+}
 
+/* for iPad */
+@media (max-aspect-ratio: 800/1000) {
+    .seventh {
+        height: 130vh;
+    }
 }
 
 /* for Kindle */
 @media (max-aspect-ratio: 800/1280) {
     .seventh {
-        height: 85vh;
+        height: 115vh;
     }
 }
 
 /* for smartphones */
 @media (max-aspect-ratio: 320/560) {
     .seventh {
-        height: 80vh;
+        height: 98.5vh;
     }
 
     .seventh__box--grid {
@@ -155,14 +178,14 @@
 /* for iPhone X */
 @media (max-aspect-ratio: 375/812) {
     .seventh {
-        height: 70vh;
+        height: 90vh;
     }
 }
 
 /* for Galaxy Fold */
 @media (max-aspect-ratio: 280/650) {
     .seventh {
-        height: 70vh;
+        height: 80vh;
     }
 }
 

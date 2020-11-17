@@ -17,8 +17,8 @@ body {
 
 .section {
     height: 100vh;
-    width: 100vw;
-    max-width: 100vw;
+    width: 100%;
+    max-width: 100%;;
     overflow: hidden;
 }
 
@@ -39,7 +39,7 @@ body {
 .hero__logo__img {
     height: auto;
     width: 100%;
-    position: relative;
+    position: absolute; /*PYTANIE: czemu jak było relative to się coś pierdoliło i top: nie dało się zmieniać */
     top: 50%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
