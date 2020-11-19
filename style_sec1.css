@@ -62,7 +62,7 @@ body {
 
 .about__movie {
     top: 105%;
-    left: -10%;
+    left: -17%;
 } 
 
 .about__mission {
@@ -75,11 +75,6 @@ body {
     right: 10%;
 }
 
-.zero_num {
-    font-family: 'Cormorant', serif;
-    font-weight: 500;
-}
-
 .hero__footer {
     position: absolute;
     bottom: -150%;
@@ -88,6 +83,7 @@ body {
     height: auto;
     color: #F8E8F7;
 }
+
 .hero__footer--left {
     left: -27%;
 }
@@ -157,9 +153,261 @@ body {
     padding-left: 15px;
 }
 
-header > div > div a, header > div > a {
+header > div > div a, header > div > a, div > div > a {
     text-decoration: none;
     color: #F8E8F7;
 }
 
+.hero--mobile {
+    display: none;
+    position: relative;
+    background: #040904;
+    height: 120vh;
+    width: 100%;
+    max-width: 100vw;
+    overflow: hidden;
+}
+
+.hero__container--mobile {
+    position: absolute;
+    top: 17vh;
+}
+
+.hero__img--mobile {
+    height: 25vh;
+    width: auto;
+}
+
+.hero__imgUp--mobile {
+    transform: translate(-5%,-20%);
+}
+
+.hero__imgDown--mobile {
+    transform: translate(-30%, -20%);
+}
+
+.hero__navbar--mobile {
+    background: #F8E8F7;
+    display: block;
+    position: absolute;
+    width: 100vw;
+    height: 6vh;
+    font-size: 6vw;
+    white-space: nowrap;
+    padding: 0;
+    transform: translate(0, -25%);
+}
+
+ul > li > a {
+    text-decoration: none;
+    color: #040904;;
+}
+
+.hero__navbar__list {
+    display: inline;
+    width: 30vw;
+    position: absolute;
+}
+
+.hero__navbar__listOne--mobile {
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    padding-left: 1vw;
+}
+
+.hero__navbar__listTwo--mobile {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding-left: 3vw;
+}
+
+.hero__navbar__listThree--mobile {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+    text-align: right;
+    padding-right: 1vw;
+}
+
+.hero__upper--mobile {
+    position: absolute;
+    top: -10vh;
+    font-size: 2.7vw;
+    width: 41vw;
+    height: auto;
+    color: #F8E8F7;
+}
+
+.hero__upper--right1--mobile {
+    left: 5vw;
+}
+
+.hero__upper--right2--mobile {
+    left: 50.5vw;
+    display: inline;
+    width: 20vw;
+}
+
+.hero__upper--right3--mobile {
+    left: 75vw;
+    display: inline;
+    top: -12vh;
+}
+
+.hero__button--mobile {
+    background-color: #F8E8F7;
+    border: none;
+    padding: 2vw;
+    text-align: center; 
+    text-decoration: none;
+    font-size: 3.5vw;
+    cursor: pointer;
+    outline: none;
+    border-radius: 60%;
+    letter-spacing: -1px;
+    white-space: nowrap;
+}
+
+.hero__description--mobile {
+    position: absolute;
+    color: #F8E8F7;
+    width: 88.5vw;
+    padding-left: 4%;
+}
+
+.hero__description--text--mobile {
+    bottom: -90%;
+    text-align: justify;
+    font-size: 2.9vw;
+}
+
+.hero__description--title--mobile {
+    bottom: -45%;
+    font-size: 4.2vw;
+}
+
+#document--mobile {
+    display: inline;
+    padding-left: 6vw;
+}
+
+
+/* for tablets */
+@media (max-aspect-ratio: 1/1) {
+    .hero {
+        display: none;
+    }
+
+    .hero--mobile {
+        display: block;
+    }
+
+    .hero__upper--right3--mobile {
+        left: 77vw;
+    }
+
+    .zrzutka--mobileENG {
+        padding-left: 30px;
+        white-space: nowrap;
+    }
+
+    .hero__navbar--mobileENG {
+        font-size: 4vw;
+    }
+
+    .hero__navbar__listTwo--mobileENG {
+        padding-left: 9vw;
+    }
+
+    .hero__description--title--mobileENG {
+        bottom: -38%;
+    }
+}
+
+/* for smartphones */
+@media (max-aspect-ratio: 320/560) {
+    .hero__img--mobile {
+        height: 20vh;
+    }
+
+    .hero--mobile {
+        height: 97vh;
+    }
+
+    .hero__description--text--mobile {
+        bottom: -83%;
+        text-align: justify;
+        font-size: 2.9vw;
+    }
+
+    .hero__description--title--mobile {
+        bottom: -42%;
+        font-size: 4.2vw;
+    }
+
+    .hero__upper--mobile {
+        font-size: 3.1vw;
+    }
+
+    .zrzutka--mobile {
+        padding-left: 20px;
+    }
+
+    .hero__upper--right3--mobile {
+        left: 80vw;
+        top: -11.4vh;
+    }
+
+    .hero__description--title--mobileENG {
+        bottom: -34%;
+    }
+    
+}
+
+/* for iPhone X */
+@media (max-aspect-ratio: 410/812) {
+    .hero__img--mobile {
+        height: 15vh;
+    }
+
+    .hero--mobile {
+        height: 82vh;
+    }
+
+    .hero__description--text--mobile {
+        bottom: -88%;
+    }
+
+    .hero__description--title--mobileENG {
+        bottom: -36%;
+    }
+}
+
+/* for Pixel 2 XL */
+@media (aspect-ratio: 411/823) {
+    .hero__description--text--mobile {
+        bottom: -87%;
+    }
+
+    .hero__description--title--mobile {
+        bottom: -42%;
+    }
+
+    .hero__description--text--mobileENG {
+        bottom: -97.5%;
+    }
+}
+
+/* for Nexus 4 */
+@media (aspect-ratio: 384/640) {
+    .hero__description--text--mobile {
+        bottom: -78%;
+    }
+
+}
 

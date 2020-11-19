@@ -142,7 +142,7 @@
     }
 
     .seventh__box--paragraph {
-        top: 27vw;
+        top: 24.5vw;
         right: 14vw;
         width: 75%;
         line-height: 2vh;
@@ -185,7 +185,7 @@
 /* for Galaxy Fold */
 @media (max-aspect-ratio: 280/650) {
     .seventh {
-        height: 80vh;
+        height: 83vh;
     }
 }
 

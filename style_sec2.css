@@ -9,6 +9,13 @@
     height: 100vh;
 }
 
+.second__img--mobile {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
 .second__paragraph {
     position: absolute;
     top: 130%;
@@ -41,16 +48,116 @@
     top: 125%;
 }
 
+.second--mobile {
+    display: none;
+    position: relative;
+    background: #040904;
+    height: 130vh;
+    width: 100%;
+    max-width: 100vw;
+    overflow: hidden;
+}
 
-/* replaced with transparent black background */
-/* @media (max-aspect-ratio: 1600/780) {
-    .second__paragraph {
-        width: 29%;
+.second__paragraph--mobile {
+    position: absolute;
+    bottom: 30vh;
+    color: #F8E8F7;
+    text-align: justify;
+    font-size: 2.8vw;
+    padding-left: 3%;
+    padding-right: 3%;
+    line-height: 2.3vh;
+}
+
+.second__subtitle--mobile {
+    position: absolute;
+    left: 2vw;
+    top: -18vh;
+    color: #F8E8F7;
+    font-size: 17vw;
+    font-weight: lighter;
+    letter-spacing: -4px;
+}
+
+.second__subtitle--mobileENG {
+    position: absolute;
+    left: 3.5vw;
+    top: -13vh;
+    color: #F8E8F7;
+    font-size: 11vw;
+    font-weight: lighter;
+    white-space: nowrap;
+}
+
+.second__paragraph--bottom--mobile {
+    position: absolute;
+    top: 110%;
+    padding-right: 3%;
+}
+
+
+/* for tablets */
+@media (max-aspect-ratio: 1/1) {
+    .second {
+        display: none;
+    }
+
+    .second--mobile {
+        display: block;
     }
 }
 
-@media (max-aspect-ratio: 1500/830) {
-    .second__paragraph {
-        width: 22%;
+/* for smartphones */
+@media (max-aspect-ratio: 320/560) {
+    .second--mobile {
+        position: relative;
+        background: #040904;
+        height: 110vh;
+        width: 100%;
+        max-width: 100vw;
+        overflow: hidden;
     }
-} */
+
+    .second__paragraph--mobile {
+        position: absolute;
+        bottom: 30vh;
+        color: #F8E8F7;
+        text-align: justify;
+        font-size: 3.2vw;
+        padding-left: 3%;
+        padding-right: 3%;
+        line-height: 2.3vh;
+    }
+
+    .second__subtitle--mobile {
+        position: absolute;
+        left: 2vw;
+        top: -15vh;
+        color: #F8E8F7;
+        font-size: 17vw;
+        font-weight: lighter;
+        letter-spacing: -4px;
+    }
+
+    .second__paragraph--bottom--mobile {
+        position: absolute;
+        top: 110%;
+        padding-right: 3%;
+    }
+
+    .second__subtitle--mobileENG {
+        top: -9.5vh;
+    }
+}
+
+/* for iPhone X */
+@media (max-aspect-ratio: 410/812) {
+    .second--mobile {
+        height: 100vh;
+    }
+
+    .second__subtitle--mobile {
+        top: -12vh;
+    }
+    
+}
