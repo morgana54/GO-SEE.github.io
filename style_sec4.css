@@ -10,16 +10,12 @@
 
 .section__banner {
     position: absolute;
-    background-image: url(media/banner.gif);
-    background-size: cover;
     height: 15vh;
     width: 100%;
 }
 
 .section__banner--eng {
     position: absolute;
-    background-image: url(media/banner_eng.gif);
-    background-size: cover;
     height: 15vh;
     width: 100%;
 }
@@ -67,6 +63,7 @@
 @media (max-aspect-ratio: 800/600) {
     .section__banner--eng, .section__banner {
         height: 9vh;
+        width: auto;
     }
 
     .fourth__paragraph {
@@ -101,6 +98,7 @@
 @media (max-aspect-ratio: 320/560) {
     .section__banner--eng, .section__banner {
         height: 8vh;
+        width: auto;
     }
 
     .fourth__paragraph {
