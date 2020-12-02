@@ -210,7 +210,7 @@
 }
 
 .lg-toolbar .lg-download:after {
-  content: "\e0f2";
+  content: "";
 }
 
 .lg-sub-html {
