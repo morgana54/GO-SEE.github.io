@@ -22,9 +22,15 @@ body {
     overflow: hidden;
 }
 
-.hero {
+/* .hero {
     background-image: url("media/tlo1.jpg");
     background-size: cover;
+} */
+
+#bgvid {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
 }
 
 .hero__logo {
