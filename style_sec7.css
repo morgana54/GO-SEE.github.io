@@ -82,9 +82,34 @@
     font-size: 0.86vw;
 }
 
+h2, h5 {
+    font-family: Helvetica, sans-serif;
+    font-size: 1vw;
+    font-weight: lighter;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    text-align: justify;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+
 
 /* for tablets */
 @media (max-aspect-ratio: 1/1) {
+    h2, h5 {
+        font-size: 2.8vw;
+        padding-left: 0;
+        padding-right: 0;
+    }    
+
+    h2 {
+        font-size: 3.2vw;
+    }
+    
     .seventh__box--grid {
         grid-template-columns: repeat(auto-fill, 30%);
         grid-template-rows: repeat(3, 26%);
@@ -169,7 +194,7 @@
 /* for smartphones */
 @media (max-aspect-ratio: 320/560) {
     .seventh {
-        height: 98.5vh;
+        height: 105vh;
     }
 
     .seventh__box--grid {
@@ -187,7 +212,7 @@
 /* for Galaxy Fold */
 @media (max-aspect-ratio: 280/650) {
     .seventh {
-        height: 83vh;
+        height: 88vh;
     }
 }
 
