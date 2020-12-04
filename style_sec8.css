@@ -16,7 +16,7 @@
     color: #F8E8F7;
 }
 
-.eighth__forMedia {
+.eighth__forMedia, .eighth__forMedia--ENG {
     position: absolute;
     bottom: -30%;
     right: -18%;
@@ -125,7 +125,14 @@ div > div > div > a:hover {
     
     .eighth__forMedia {
         bottom: -45%;
-        left: 8vw;
+        left: 12vw;
+        font-size: 13vw;
+        white-space: nowrap;
+    }
+
+    .eighth__forMedia--ENG {
+        bottom: -45%;
+        left: 21vw;
         font-size: 13vw;
         white-space: nowrap;
     }
@@ -164,6 +171,10 @@ div > div > div > a:hover {
 @media (max-aspect-ratio: 320/560) {
     .eighth {
         height: 50vh;
+    }
+
+    .eighth__header {
+        left: 5%;
     }
 
     .eight__programming--names {
