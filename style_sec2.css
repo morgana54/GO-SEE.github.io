@@ -18,9 +18,9 @@
 
 .second__paragraph {
     position: absolute;
-    top: 130%;
-    left: 6%;
-    width: 32.5%;
+    top: 140%;
+    left: 2%;
+    width: 25%;
     color: #F8E8F7;
     text-align: justify;
     line-height: 2.3vh;
@@ -30,7 +30,7 @@
 .second__subtitle {
     position: absolute;
     left: 8vw;
-    bottom: 14vh;
+    bottom: 20vh;
     color: #F8E8F7;
     font-size: 8vw;
     font-weight: lighter;
@@ -39,13 +39,13 @@
 }
 
 .second__blur {
-    background: rgba(0, 0, 0, 0.2);
+    background: transparent;
     border-radius: 5px;
 }
 
 .second__paragraph--bottom {
     position: absolute;
-    top: 125%;
+    top: 120%;
 }
 
 .second--mobile {
@@ -95,7 +95,11 @@
     padding-right: 3%;
 }
 
-
+@media (max-aspect-ratio: 1400/850) {
+    .second__blur {
+        background: rgba(0, 0, 0, 0.2);
+    }
+}
 /* for tablets */
 @media (max-aspect-ratio: 1/1) {
     .second {
