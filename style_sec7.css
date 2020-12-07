@@ -25,6 +25,11 @@
 
 .seventh__img {
     width: 103%;
+    transition: all .3s ease-in-out;
+}
+
+.seventh__img:hover {
+    transform: scale(1.04);
 }
 
 .seventh__img--2 {
