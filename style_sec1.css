@@ -141,13 +141,18 @@ body {
 }
 
 
-.hero__description--text {
+.hero__description--text{
     bottom: 175%;
     height: 15%;
     text-align: justify;
     font-size: 0.75vw;
     font-weight: lighter;
 }
+
+.hero__description--textENG {
+    font-size: 0.7vw;
+}
+
 
 .hero__description--title {
     bottom: 195%;
