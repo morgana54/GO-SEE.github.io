@@ -1,7 +1,7 @@
 .fourth {
     position: relative;
     background-color: #040904;
-    height: 100vh;
+    height: 105vh;
     width: 100%;;
     max-width: 100%;;
     overflow: hidden;
@@ -30,19 +30,28 @@
 
 .fourth__paragraph {
     position: relative;
-    top: 50%;
+    top: 55%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     color: #F8E8F7;
     text-align: justify;
     line-height: 2.3vh;
-    font-size: 0.9vw;
-    padding-left: 27%;
-    padding-right: 27%;
+    font-size: 0.95vw;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.fourth__paragraph--eng {
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .fourth__paragraph--bottom {
+    padding-top: 1%;
+}
+
+.fourth__paragraph--bottom--eng {
     padding-top: 3%;
 }
 
@@ -59,8 +68,17 @@
     font-size: 0.94vw;
 }
 
+#ekipa {
+    float: right;
+}
+
 /* for tablets */
 @media (max-aspect-ratio: 800/600) {
+    
+    .fourth {
+        height: 160vh;
+    }
+
     .section__banner--eng, .section__banner {
         height: 9vh;
         width: auto;
@@ -79,7 +97,7 @@
     }
 
     .fourth__paragraph__mission {
-        top: -17%;
+        top: -10%;
         font-size: 25vw;
         left: 60%;
         text-align: right;
@@ -92,10 +110,18 @@
         text-align: right;
     }
     
+    .fourth__paragraph--bottom {
+        padding-top: 4%;
+    }
 }
 
 /* for smartphones */
 @media (max-aspect-ratio: 320/560) {
+    
+    .fourth {
+        height: 177vh;
+    }
+
     .section__banner--eng, .section__banner {
         height: 8vh;
         width: auto;
@@ -115,7 +141,7 @@
 
     
     .fourth__paragraph__mission {
-        top: -10%;
+        top: -7%;
         font-size: 23vw;
         left: 63%;
     }
