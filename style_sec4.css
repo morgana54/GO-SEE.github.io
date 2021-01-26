@@ -30,7 +30,7 @@
 
 .fourth__paragraph {
     position: relative;
-    top: 55%;
+    top: 50%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -38,8 +38,8 @@
     text-align: justify;
     line-height: 2.3vh;
     font-size: 0.95vw;
-    padding-left: 6%;
-    padding-right: 6%;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .fourth__paragraph--eng {
@@ -48,7 +48,7 @@
 }
 
 .fourth__paragraph--bottom {
-    padding-top: 1%;
+    padding-top: 4%;
 }
 
 .fourth__paragraph--bottom--eng {
@@ -57,7 +57,7 @@
 
 .fourth__paragraph__mission, .fourth__paragraph__mission--eng {
     position: absolute;
-    top: -15%;
+    top: -25%;
     font-size: 6vw;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
