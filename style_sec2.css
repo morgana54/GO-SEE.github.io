@@ -18,19 +18,19 @@
 
 .second__paragraph {
     position: absolute;
-    top: 140%;
+    top: 125%;
     left: 2%;
     width: 25%;
     color: #F8E8F7;
     text-align: justify;
     line-height: 2.3vh;
-    font-size: 0.85vw;
+    font-size: 0.95vw;
 }
 
 .second__subtitle {
     position: absolute;
     left: 8vw;
-    bottom: 20vh;
+    bottom: 23vh;
     color: #F8E8F7;
     font-size: 8vw;
     font-weight: lighter;
@@ -45,7 +45,8 @@
 
 .second__paragraph--bottom {
     position: absolute;
-    top: 120%;
+    top: 110%;
+    padding-top: 2.5%;
 }
 
 .second--mobile {
@@ -60,7 +61,7 @@
 
 .second__paragraph--mobile {
     position: absolute;
-    bottom: 30vh;
+    bottom: 20vh;
     color: #F8E8F7;
     text-align: justify;
     font-size: 2.8vw;
@@ -116,7 +117,7 @@
     .second--mobile {
         position: relative;
         background: #040904;
-        height: 110vh;
+        height: 125vh;
         width: 100%;
         max-width: 100vw;
         overflow: hidden;
@@ -124,7 +125,7 @@
 
     .second__paragraph--mobile {
         position: absolute;
-        bottom: 30vh;
+        bottom: 43vh;
         color: #F8E8F7;
         text-align: justify;
         font-size: 3.2vw;
@@ -147,6 +148,7 @@
         position: absolute;
         top: 110%;
         padding-right: 3%;
+        padding-top: 2%;
     }
 
     .second__subtitle--mobileENG {
@@ -157,7 +159,7 @@
 /* for iPhone X */
 @media (max-aspect-ratio: 410/812) {
     .second--mobile {
-        height: 100vh;
+        height: 115vh;
     }
 
     .second__subtitle--mobile {

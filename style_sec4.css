@@ -1,7 +1,7 @@
 .fourth {
     position: relative;
     background-color: #040904;
-    height: 100vh;
+    height: 105vh;
     width: 100%;;
     max-width: 100%;;
     overflow: hidden;
@@ -20,6 +20,11 @@
     width: 100%;
 }
 
+.section__banner--eng:hover, .section__banner:hover {
+    transform: scale(1.03);
+    filter: brightness(0.65);
+}
+
 .section__banner--top {
     top: 10px;
 }
@@ -30,25 +35,34 @@
 
 .fourth__paragraph {
     position: relative;
-    top: 50%;
+    top: 53%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     color: #F8E8F7;
     text-align: justify;
     line-height: 2.3vh;
-    font-size: 0.9vw;
-    padding-left: 27%;
-    padding-right: 27%;
+    font-size: 0.95vw;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.fourth__paragraph--eng {
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .fourth__paragraph--bottom {
+    padding-top: 4%;
+}
+
+.fourth__paragraph--bottom--eng {
     padding-top: 3%;
 }
 
 .fourth__paragraph__mission, .fourth__paragraph__mission--eng {
     position: absolute;
-    top: -15%;
+    top: -20%;
     font-size: 6vw;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
@@ -57,6 +71,10 @@
 
 .see {
     font-size: 0.94vw;
+}
+
+#ekipa {
+    float: right;
 }
 
 /* for tablets */
@@ -68,8 +86,8 @@
 
     .fourth__paragraph {
         font-size: 2.5vw;
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 7%;
+        padding-right: 7%;
         line-height: 2.8vh;
         top: 57%;
     }
@@ -103,9 +121,9 @@
 
     .fourth__paragraph {
         font-size: 3.8vw;
-        padding-left: 5%;
-        padding-right: 5%;
-        line-height: 2.2vh;
+        padding-left: 7%;
+        padding-right: 7%;
+        line-height: 2.3vh;
         top: 55%;
     }
 
@@ -113,11 +131,10 @@
         font-size: 3.3vw;
     }
 
-    
     .fourth__paragraph__mission {
-        top: -10%;
+        top: -15%;
         font-size: 23vw;
-        left: 63%;
+        left: 67%;
     }
 
     .fourth__paragraph__mission--eng {
