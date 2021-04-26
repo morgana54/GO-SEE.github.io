@@ -1,225 +1,230 @@
 .seventh {
-    background-color: #040904;
-    height: 100vh;
-    width: 100%;;
-    max-width: 100%;;
-    overflow: hidden;
-    padding-top: 20px;
+  background-color: #040904;
+  height: 100vh;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  padding-top: 20px;
 }
 
 .seventh__box {
-    position: relative;
-    height: 100vh;
+  position: relative;
+  height: 100vh;
 }
 
 .seventh__box--grid {
-    position: absolute;
-    top: 10vh;
-    left: 12vw;
-    width: 85vw;
-    display: grid;
-    grid-template-columns: repeat(3, 18%);
-    grid-template-rows: repeat(2, 44%);
-    gap: 10px;
-    padding-top: 25px;
+  position: absolute;
+  top: 10vh;
+  left: 12vw;
+  width: 85vw;
+  display: grid;
+  grid-template-columns: repeat(3, 18%);
+  grid-template-rows: repeat(2, 44%);
+  gap: 10px;
+  padding-top: 25px;
 }
 
 .seventh__img {
-    width: 103%;
-    transition: all .3s ease-in-out;
+  width: 103%;
+  transition: all 0.3s ease-in-out;
 }
 
 .seventh__img:hover {
-    transform: scale(1.05) rotate(4deg);
+  transform: scale(1.05) rotate(4deg);
 }
 
 .seventh__img--2 {
-    width: 110%;
+  width: 110%;
 }
 
 .seventh__img--4 {
-    transform: translate(-1.3vw);
+  transform: translate(-1.3vw);
 }
 
 .seventh__img--5 {
-    margin-left: 1.5vw;
+  margin-left: 1.5vw;
 }
 
 .seventh__img--6 {
-    width: 110%;
+  width: 110%;
 }
 
 .seventh__img--8 {
-    transform: translateX(-1.7vw);
+  transform: translateX(-1.7vw);
 }
 
 .seventh__box--about-us {
-    color: #F8E8F7;
-    position: absolute;
-    right: 11vw;
-    font-size: 7vw;
-    font-weight: lighter;
+  color: #f8e8f7;
+  position: absolute;
+  right: 11vw;
+  font-size: 7vw;
+  font-weight: lighter;
 }
 
 .seventh__box--about-usENG {
-    color: #F8E8F7;
-    position: absolute;
-    right: 6.5vw;
-    font-size: 7vw;
-    font-weight: lighter;
+  color: #f8e8f7;
+  position: absolute;
+  right: 6.5vw;
+  font-size: 7vw;
+  font-weight: lighter;
 }
 
 .helvetica {
-    font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .seventh__about {
-    font-size: 7.5vw;
+  font-size: 7.5vw;
 }
 
 .seventh__box--paragraph {
-    position: absolute;
-    top: 10vw;
-    right: 7vw;
-    width: 14%;
-    color: #F8E8F7;
-    text-align: justify;
-    line-height: 2.2vh;
-    font-size: 0.86vw;
+  position: absolute;
+  top: 10vw;
+  right: 11.5vw;
+  width: 20%;
+  color: #f8e8f7;
+  text-align: justify;
+  line-height: 2.2vh;
+  font-size: 0.86vw;
 }
 
-h2, h5 {
-    font-family: Helvetica, sans-serif;
-    font-size: 1vw;
-    font-weight: lighter;
-    padding-left: 15vw;
-    padding-right: 15vw;
-    text-align: justify;
+h2,
+h5 {
+  font-family: Helvetica, sans-serif;
+  font-size: 1vw;
+  font-weight: lighter;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  text-align: justify;
 }
 
 h2 {
-    text-align: center;
-    font-size: 1.2vw;
-    font-weight: bold;
+  text-align: center;
+  font-size: 1.2vw;
+  font-weight: bold;
 }
-
 
 /* for tablets */
 @media (max-aspect-ratio: 1/1) {
-    h2, h5 {
-        font-size: 2.8vw;
-        padding-left: 0;
-        padding-right: 0;
-    }    
+  h2,
+  h5 {
+    font-size: 2.8vw;
+    padding-left: 0;
+    padding-right: 0;
+  }
 
-    h2 {
-        font-size: 3.2vw;
-    }
-    
-    .seventh__box--grid {
-        grid-template-columns: repeat(auto-fill, 28%);
-        grid-template-rows: repeat(2, 40%);
-        top: 34vh;
-        grid-gap: 4.5vw;
-        width: 90vw;
-        left: 15px;
-    }
+  h2 {
+    font-size: 3.2vw;
+  }
 
-    .seventh__img {
-        width: 120%;
-    }
+  .seventh__box--grid {
+    grid-template-columns: repeat(auto-fill, 28%);
+    grid-template-rows: repeat(2, 40%);
+    top: 34vh;
+    grid-gap: 4.5vw;
+    width: 90vw;
+    left: 15px;
+  }
 
-    .seventh__img--2 {
-        transform: rotate(-4deg);
-    }
+  .seventh__img {
+    width: 120%;
+  }
 
-    .seventh__img--4 {
-        transform: rotate(-1deg)
-    }
+  .seventh__img--2 {
+    transform: rotate(-4deg);
+  }
 
-    .seventh__img--5 {
-        width: 115%;
-        transform: translate(0, 5%);
-    }
+  .seventh__img--4 {
+    transform: rotate(-1deg);
+  }
 
-    .seventh__img--6 {
-        width: 135%;
-        transform: rotate(12deg) translate(-8%, 0);
-    }
+  .seventh__img--5 {
+    width: 115%;
+    transform: translate(0, 5%);
+  }
 
-    .seventh__img--7 {
-        transform: translate(25%, -4%);
-    }
+  .seventh__img--6 {
+    width: 135%;
+    transform: rotate(12deg) translate(-8%, 0);
+  }
 
-    .seventh__img--8 {
-        transform: translate(0%, 6%) rotate(-6deg);
-        width: 125%;
-    }
+  .seventh__img--7 {
+    transform: translate(25%, -4%);
+  }
 
-    .seventh__box--about-us {
-        font-size: 22vw;
-    }
+  .seventh__img--8 {
+    transform: translate(0%, 6%) rotate(-6deg);
+    width: 125%;
+  }
 
-    .seventh__about{
-        font-size: 25vw;
-    }
+  .seventh__box--about-us {
+    font-size: 22vw;
+  }
 
-    .seventh__box--about-usENG {
-        font-size: 14vw;
-        right: 13vw;
-        top: 4vh;
-    }
+  .seventh__about {
+    font-size: 25vw;
+  }
 
-    .seventh__aboutENG {
-        font-size: 15vw;
-    }
+  .seventh__box--about-usENG {
+    font-size: 14vw;
+    right: 13vw;
+    top: 4vh;
+  }
 
-    .seventh__box--paragraph {
-        top: 24.5vw;
-        right: 14vw;
-        width: 75%;
-        line-height: 2vh;
-        font-size: 3vw;
-    }
+  .seventh__aboutENG {
+    font-size: 15vw;
+  }
+
+  .seventh__box--paragraph {
+    top: 20vh;
+    right: 14vw;
+    width: 75%;
+    line-height: 2vh;
+    font-size: 3vw;
+  }
 }
 
 /* for iPad */
 @media (max-aspect-ratio: 800/1000) {
-    .seventh {
-        height: 130vh;
-    }
+  .seventh {
+    height: 130vh;
+  }
 }
 
 /* for Kindle */
 @media (max-aspect-ratio: 800/1280) {
-    .seventh {
-        height: 115vh;
-    }
+  .seventh {
+    height: 115vh;
+  }
 }
 
 /* for smartphones */
 @media (max-aspect-ratio: 320/560) {
-    .seventh {
-        height: 105vh;
-    }
+  .seventh {
+    height: 105vh;
+  }
 
-    .seventh__box--grid {
-        top: 28vh;
-    }
+  .seventh__box--grid {
+    top: 28vh;
+  }
+
+  .seventh__box--paragraph {
+    top: 15vh;
+  }
 }
 
 /* for iPhone X */
 @media (max-aspect-ratio: 375/812) {
-    .seventh {
-        height: 90vh;
-    }
+  .seventh {
+    height: 90vh;
+  }
 }
 
 /* for Galaxy Fold */
 @media (max-aspect-ratio: 280/650) {
-    .seventh {
-        height: 88vh;
-    }
+  .seventh {
+    height: 88vh;
+  }
 }
 
-    /* na mobilkę: możesz dać media query gdzie właśnie grid-template będzie się zamieniał to auto-fill itp., żeby był wrapowanie, albo po prostu dajesz repeat na mniej kolumn i inny procent długości/wysokości */
+/* na mobilkę: możesz dać media query gdzie właśnie grid-template będzie się zamieniał to auto-fill itp., żeby był wrapowanie, albo po prostu dajesz repeat na mniej kolumn i inny procent długości/wysokości */
